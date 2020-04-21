@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        File input = new File(scanner.nextLine());
+        File input = new File("test.html");
         Document parsedInput = null;
 
         try {
